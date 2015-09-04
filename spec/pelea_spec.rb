@@ -50,4 +50,24 @@ describe Pelea do
 	#Assert
 	pelea.player_1_score.should == 0
 	end
+
+	it "Cuando el jugador 1 lanza patada diminuye en 17 la vida del jugador 2" do
+	#Arrange
+	pelea = Pelea.new
+	#Act
+	pelea.patada (1)
+	#Assert
+	pelea.player_2_score.should == 83
+	end
+
+
+	it "Cuando el jugador 2 lanza patada diminuye en 17 la vida del jugador 1" do
+	#Arrange
+	pelea = Pelea.new
+	#Act
+	pelea.patada (2)
+	#Assert
+	pelea.player_1_score.should == 83
+	end
+
 end 

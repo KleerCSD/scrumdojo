@@ -13,16 +13,31 @@
 		</tr>
 		<tr>
 			<td><form action="/j1" method="POST">
-					<input type="hidden" value="punete" />
+					<input type="hidden" name="accion" value="punete" />
 					<input type="submit" value="Punete 1"/>
 				</form>
 			</td>
 			<td></td>
 			<td><form action="/j2" method="POST">
-					<input type="hidden" value="punete" />
+					<input type="hidden" name="accion" value="punete" />
 					<input type="submit" value="Punete 2"/>
 				</form></td>
 		</tr>
+
+
+		<tr>
+			<td><form action="/j1" method="POST">
+					<input type="hidden" name="accion" value="patada" />
+					<input type="submit" value="Patada 1"/>
+				</form>
+			</td>
+			<td></td>
+			<td><form action="/j2" method="POST">
+					<input type="hidden" name="accion" value="patada" />
+					<input type="submit" value="Patada 2"/>
+				</form></td>
+		</tr>
+
 		<tr>
 			<td>Energia 1 <br/>Vida 1: <%= @player_1_score %></td>
 			<td></td>

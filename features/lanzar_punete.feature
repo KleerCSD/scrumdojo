@@ -35,5 +35,14 @@ Scenario: Cuando se inicia el juego y el jugador 2 lanzo 7 puñete, este debe ga
     And I press "Punete 2"
     And I press "Punete 2"
     And I press "Punete 2"
-	Then I should see "ganador:"
+	Then I should see "ganador :"
+
+
+Scenario: Cuando se inicia el juego y lanzo una patada del jugador 2 la vida del otro jugador 1 debe disminuir en 17
+	Given I open the web app
+	When I press "jugar"
+	And I press "Punete 2"
+	Then I should see "Vida 1: 85"
+
+
 
