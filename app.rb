@@ -11,3 +11,7 @@ end
 post '/juego' do
 	erb :juego
 end
+
+post '/resultado' do
+	erb :resultado
+end
