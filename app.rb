@@ -5,7 +5,11 @@ configure do
 end
 
 get '/' do
-	"Hola mundo"
+	erb :index
+end
+
+post '/juego' do
+	erb :juego
 end
 
 get '/juego' do
