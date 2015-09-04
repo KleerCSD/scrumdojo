@@ -2,9 +2,7 @@ Given /^I open the web app$/ do
   visit '/'
 end
 
-Given /^I open the web app arena$/ do
-  visit '/juego'
-end
+
 
 Given /^I open the web app resultado$/ do
   visit '/resultado', :post, "nombre_ganador=CRUZ"
