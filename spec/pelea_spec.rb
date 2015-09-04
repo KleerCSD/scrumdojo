@@ -99,6 +99,7 @@ describe Pelea do
 	pelea.player_1_energy.should == 100
 	end
 
+<<<<<<< HEAD
 	it "Cuando ingreso a la app y el jugador 1 ataca, el usuario dos selecciona Energia 2 y luego Recargar 2 para recargar su vida" do
 	#Arrange
 	pelea = Pelea.new
@@ -110,4 +111,6 @@ describe Pelea do
 	pelea.player_2_score.should == 95
 	end
 
+=======
+>>>>>>> 930a7d70a4fde3d1dbe87ca78a48e16166df698d
 end 

@@ -55,12 +55,19 @@ post '/j1' do
 		@player_1_energy = pelea.player_1_energy
 		@player_2_energy = pelea.player_2_energy
 
+			
+
+		@nombre_jugador1 = 	pelea.nombre_jugador1
+		@nombre_jugador2 = 	pelea.nombre_jugador2
+		@rol_jugador1 = 	pelea.rol_jugador1
+		@rol_jugador2 = 	pelea.rol_jugador2
+
 		if @player_2_score == 0 
 			if @player_1_score == 100
 				@fatality = "FATALITY!!!!!!!!"
 			end
-		@nombre_ganador = "VEGA"
-		@rol_ganador = "BA"
+		@nombre_ganador = @nombre_jugador1
+		@rol_ganador = @rol_jugador1
 		erb :resultado
 		else
 		erb :juego
@@ -83,12 +90,17 @@ post '/j2' do
 	@player_2_score = pelea.player_2_score
 		@player_1_energy = pelea.player_1_energy
 		@player_2_energy = pelea.player_2_energy
+	@nombre_jugador1 = 	pelea.nombre_jugador1
+		@nombre_jugador2 = 	pelea.nombre_jugador2
+		@rol_jugador1 = 	pelea.rol_jugador1
+		@rol_jugador2 = 	pelea.rol_jugador2
 	if @player_1_score == 0 
-		if @player_2_score == 100
+			if @player_2_score == 100
 				@fatality = "FATALITY!!!!!!!!"
 			end
-	@nombre_ganador = "DE LA CRUZ"
-	@rol_ganador = "BA"
+			@nombre_ganador = @nombre_jugador2
+			@rol_ganador = @rol_jugador2
+
 	erb :resultado
 	else
 	erb :juego
