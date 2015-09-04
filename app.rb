@@ -13,12 +13,9 @@ end
 
 post '/juego' do	
 	pelea = session['pelea']
-<<<<<<< HEAD
 	#pelea.jugador1 = 
 	@player_1_energy = pelea.player_1_energy
 	@player_2_energy = pelea.player_2_energy
-=======
-
 	pelea.nombre_jugador1 =  params['nombre_jugador1']
 	pelea.nombre_jugador2 =  params['nombre_jugador2']
 	@nombre_jugador1 = 	pelea.nombre_jugador1
@@ -28,9 +25,9 @@ post '/juego' do
 	@rol_jugador1 = 	pelea.rol_jugador1
 	@rol_jugador2 = 	pelea.rol_jugador2
 	
->>>>>>> 5d3b53660aa3afe25f80a405a96d57a8e2cc58e9
 	@player_1_score = pelea.player_1_score
 	@player_2_score = pelea.player_2_score
+	session['pelea'] = pelea
 	erb :juego
 end
 
