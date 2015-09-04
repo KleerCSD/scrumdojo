@@ -45,4 +45,14 @@ Scenario: Cuando se inicia el juego y lanzo una patada del jugador 2 la vida del
 	Then I should see "Vida 1: 85"
 
 
+Scenario: Cuando se inicia el juego y el jugador 2 lanzo 6 patada, este debe ganar
+	Given I open the web app
+	When I press "jugar"
+	And I press "Patada 2"
+    And I press "Patada 2"
+    And I press "Patada 2"
+    And I press "Patada 2"
+    And I press "Patada 2"
+    And I press "Patada 2"
+	Then I should see "ganador :"
 

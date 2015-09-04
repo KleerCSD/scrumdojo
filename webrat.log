@@ -500,3 +500,231 @@ D, [2015-09-04T14:44:49.735316 #2995] DEBUG -- : REQUESTING PAGE: POST /juego wi
 D, [2015-09-04T14:44:49.760182 #2995] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2015-09-04T14:44:49.774722 #2995] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2015-09-04T14:44:49.818428 #2995] DEBUG -- : REQUESTING PAGE: POST /resultado with "nombre_ganador=CRUZ" and HTTP headers {}
+D, [2015-09-04T14:46:47.905871 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:47.994754 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.005952 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.034844 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.043249 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.052591 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.087165 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.128034 #3039] DEBUG -- : REQUESTING PAGE: POST /j1 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:46:48.139428 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.145305 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.170303 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:46:48.189423 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.201819 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.221072 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:46:48.264643 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.291052 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.310037 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.325946 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.353156 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.383306 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.403460 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.447105 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.464669 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:46:48.473874 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.486956 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.505372 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:46:48.524980 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.533247 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.600146 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.622444 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.630968 #3039] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:46:48.650578 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.663790 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.685484 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.702773 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.723048 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.771411 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.786888 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.801513 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.831438 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.844482 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.867775 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.890113 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.927592 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.933894 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.948811 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:48.955302 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:48.986715 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:49.002664 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:49.021652 #3039] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:46:49.065427 #3039] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:46:49.112160 #3039] DEBUG -- : REQUESTING PAGE: POST /resultado with "nombre_ganador=CRUZ" and HTTP headers {}
+D, [2015-09-04T14:49:46.620402 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:46.709912 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:46.722416 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:46.747815 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:46.760669 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:46.784754 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:46.824225 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:46.867205 #3058] DEBUG -- : REQUESTING PAGE: POST /j1 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:46.875754 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:46.887057 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:46.903698 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:46.920442 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:46.927636 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:46.952752 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:46.999600 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.014933 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.033241 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.049435 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.075725 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.097115 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.111323 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.167451 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.177009 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:47.185781 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.200328 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.223136 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:47.235777 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.245702 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.307460 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.323567 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.337229 #3058] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:47.344451 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.361249 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.377995 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.400593 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.409553 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.450487 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.469593 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.489462 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.504734 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.511248 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.534481 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.557959 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.608355 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.614103 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.629376 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.636357 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.662290 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.667624 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.687055 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.713566 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:47.758927 #3058] DEBUG -- : REQUESTING PAGE: POST /resultado with "nombre_ganador=CRUZ" and HTTP headers {}
+D, [2015-09-04T14:49:47.766769 #3058] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:47.772655 #3058] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:57.840849 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:57.928176 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:57.939856 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:57.963165 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:57.969073 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:57.976944 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.012394 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.054571 #3060] DEBUG -- : REQUESTING PAGE: POST /j1 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:58.063999 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.075808 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.092386 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:58.107350 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.113408 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.134044 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:58.176983 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.201186 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.229337 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.236655 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.261787 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.280157 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.296820 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.337420 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.347535 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:58.361084 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.375867 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.396063 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:58.408058 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.430675 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.503702 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.525929 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.535544 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:58.555871 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.566984 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.593504 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.599870 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.624125 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.663920 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.673665 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.685359 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.703814 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.716892 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.726000 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.748304 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.799207 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.816140 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.836572 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.847416 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.872398 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.889255 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.910546 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:58.948200 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:58.996635 #3060] DEBUG -- : REQUESTING PAGE: POST /resultado with "nombre_ganador=CRUZ" and HTTP headers {}
+D, [2015-09-04T14:49:59.002340 #3060] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:49:59.009035 #3060] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:49:59.035751 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:49:59.056182 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:59.069708 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:59.096971 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:59.139258 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:59.147442 #3060] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:49:59.158848 #3060] DEBUG -- : REQUESTING PAGE: POST / with {} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:18.683203 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:18.768769 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:18.780183 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:18.799494 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:18.816813 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:18.833144 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:18.877165 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:18.923694 #3063] DEBUG -- : REQUESTING PAGE: POST /j1 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:50:18.932393 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:18.945573 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:18.964138 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:50:18.977919 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:18.984809 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.004855 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:50:19.056856 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.064932 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.073047 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.088209 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.105521 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.128135 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.139160 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.190349 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.209909 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"punete"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:50:19.231002 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.248402 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.268329 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:50:19.296882 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.319073 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.386739 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.402968 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.416477 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.423273 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.440418 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.456121 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.474731 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.486219 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.525571 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.533992 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.544663 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.552748 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.575353 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.584727 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.590971 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.630497 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.636580 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.646124 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.652005 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.677612 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.683678 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.703992 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.748141 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.793816 #3063] DEBUG -- : REQUESTING PAGE: POST /resultado with "nombre_ganador=CRUZ" and HTTP headers {}
+D, [2015-09-04T14:50:19.800894 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T14:50:19.812355 #3063] DEBUG -- : REQUESTING PAGE: POST /juego with {"txt_name_jugador1"=>"HIRO", "select_rol_jugador1"=>"Seleccione", "txt_name_jugador2"=>"EDSON", "select_rol_jugador2"=>"Seleccione"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2015-09-04T14:50:19.831700 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/juego"}
+D, [2015-09-04T14:50:19.845535 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.852853 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.874353 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.916422 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.940507 #3063] DEBUG -- : REQUESTING PAGE: POST /j2 with {"accion"=>"patada"} and HTTP headers {"HTTP_REFERER"=>"/j2"}
+D, [2015-09-04T14:50:19.958877 #3063] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/j2"}
