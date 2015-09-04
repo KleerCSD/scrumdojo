@@ -3,25 +3,9 @@ Feature: Mostrar jugador
 	Deseo visualizar la interfaz de juego
 	Para empezar el juego
 
-Scenario: Mostrar nombre del jugador 1
-	Given I open the web app
-	When I press "jugar"
-	Then I should see "VEGA"
 
-Scenario: Mostrar nombre del rol del jugador 1
-	Given I open the web app
-	When I press "jugar"
-	Then I should see "BA"
 
-Scenario: Mostrar nombre del jugador2
-	Given I open the web app
-	When I press "jugar"
-	Then I should see "DE LA CRUZ"
 
-Scenario: Mostrar nombre del rol del jugador 2
-	Given I open the web app
-	When I press "jugar"
-	Then I should see "BA"
 
 Scenario: Mostrar el boton punete para el jugador 1
 	Given I open the web app
