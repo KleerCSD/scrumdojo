@@ -6,6 +6,10 @@ Given /^I open the web app arena$/ do
   visit '/juego'
 end
 
+Given /^I open the web app resultado$/ do
+  visit '/resultado', :post, "nombre_ganador=CRUZ"
+end
+
 Given /^I post to the web app$/ do
   visit '/', :post, "field_name=value"
 end

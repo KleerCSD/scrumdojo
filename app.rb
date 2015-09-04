@@ -14,6 +14,8 @@ end
 
 
 post '/resultado' do
+	@nombre_ganador = params['nombre_ganador']
+	@rol_ganador = params['rol_ganador']
 	erb :resultado
 end
 
