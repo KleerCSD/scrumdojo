@@ -33,7 +33,7 @@ Scenario: Mostrar el puntaje de Energia del jugador 1
 
 Scenario: Mostrar el puntaje de Vida del jugador 1
 	Given I open the web app arena
-	Then I should see "Vida 1"
+	Then I should see "Vida 1: 100"
 
 Scenario: Mostrar el puntaje de Energia del jugador 2
 	Given I open the web app arena
@@ -41,6 +41,6 @@ Scenario: Mostrar el puntaje de Energia del jugador 2
 
 Scenario: Mostrar el puntaje de Vida del jugador 2
 	Given I open the web app arena
-	Then I should see "Vida 2"
+	Then I should see "Vida 2: 100"
 
 
