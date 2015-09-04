@@ -12,14 +12,18 @@
 			<td>BA</td>
 		</tr>
 		<tr>
-			<td><input type="button" value="Punete 1"/></td>
+			<td><form action="/j1" method="POST">
+					<input type="hidden" value="punete" />
+					<input type="submit" value="Punete 1"/>
+				</form>
+			</td>
 			<td></td>
 			<td><input type="button" value="Punete 2"/></td>
 		</tr>
 		<tr>
-			<td>Energia 1 <br/>Vida 1: 100</td>
+			<td>Energia 1 <br/>Vida 1: <%= @player_1_score %></td>
 			<td></td>
-			<td>Energia 2 <br/>Vida 2: 100</td>
+			<td>Energia 2 <br/>Vida 2: <%= @player_2_score %></td>
 		</tr>
 	</table>
 
