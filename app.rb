@@ -14,6 +14,8 @@ end
 post '/juego' do	
 	pelea = session['pelea']
 	#pelea.jugador1 = 
+	@player_1_energy = pelea.player_1_energy
+	@player_2_energy = pelea.player_2_energy
 	@player_1_score = pelea.player_1_score
 	@player_2_score = pelea.player_2_score
 	erb :juego

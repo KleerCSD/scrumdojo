@@ -46,7 +46,7 @@ Scenario: Mostrar el puntaje de Vida del jugador 1
 Scenario: Mostrar el puntaje de Energia del jugador 2
 	Given I open the web app
 	When I press "jugar"
-	Then I should see "Energia 2"
+	Then I should see "Energia 2: 0"
 
 Scenario: Mostrar el puntaje de Vida del jugador 2
 	Given I open the web app
