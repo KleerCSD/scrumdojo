@@ -7,3 +7,7 @@ end
 get '/' do
 	"Hola mundo"
 end
+
+get '/juego' do
+	erb :juego
+end
