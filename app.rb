@@ -47,12 +47,18 @@ post '/j1' do
 		pelea.punete (1)
 	elsif accion == "energia"
 		pelea.energia (1)
+	elsif accion == "recargar"
+		pelea.recargar (1)
 	end
 		@player_1_score = pelea.player_1_score
 		@player_2_score = pelea.player_2_score
 		@player_1_energy = pelea.player_1_energy
 		@player_2_energy = pelea.player_2_energy
+
 		if @player_2_score == 0 
+			if @player_1_score == 100
+				@fatality = "FATALITY!!!!!!!!"
+			end
 		@nombre_ganador = "VEGA"
 		@rol_ganador = "BA"
 		erb :resultado
@@ -70,12 +76,17 @@ post '/j2' do
 		pelea.punete (2)
 	elsif accion == "energia"
 		pelea.energia (2)
+	elsif accion == "recargar"
+		pelea.recargar (2)
 	end
 	@player_1_score = pelea.player_1_score
 	@player_2_score = pelea.player_2_score
 		@player_1_energy = pelea.player_1_energy
 		@player_2_energy = pelea.player_2_energy
 	if @player_1_score == 0 
+		if @player_2_score == 100
+				@fatality = "FATALITY!!!!!!!!"
+			end
 	@nombre_ganador = "DE LA CRUZ"
 	@rol_ganador = "BA"
 	erb :resultado

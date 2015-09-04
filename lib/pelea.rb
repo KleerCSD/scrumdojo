@@ -62,4 +62,21 @@ class Pelea
 		end 
 	end
 
+
+	def recargar player
+		if player == 1
+			@player_1_score = @player_1_score + @player_1_energy
+			if @player_1_score >= 100
+				@player_1_score = 100
+			end
+			@player_1_energy = 0
+		else
+			@player_2_score = @player_2_score + @player_2_energy
+			if @player_2_score >= 100
+				@player_2_score = 100
+			end
+			@player_2_energy = 0
+		end 
+	end
+
 end
