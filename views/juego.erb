@@ -38,10 +38,24 @@
 				</form></td>
 		</tr>
 
+
 		<tr>
-			<td>Energia 1 <br/>Vida 1: <%= @player_1_score %></td>
+			<td><form action="/j1" method="POST">
+					<input type="hidden" name="accion" value="energia" />
+					<input type="submit" value="Energia 1"/>
+				</form>
+			</td>
 			<td></td>
-			<td>Energia 2 <br/>Vida 2: <%= @player_2_score %></td>
+			<td><form action="/j2" method="POST">
+					<input type="hidden" name="accion" value="energia" />
+					<input type="submit" value="Energia 2"/>
+				</form></td>
+		</tr>
+
+		<tr>
+			<td>Energia 1: <%= @player_1_energy %><br/>Vida 1: <%= @player_1_score %></td>
+			<td></td>
+			<td>Energia 2: <%= @player_2_energy %><br/>Vida 2: <%= @player_2_score %></td>
 		</tr>
 	</table>
 

@@ -70,4 +70,34 @@ describe Pelea do
 	pelea.player_1_score.should == 83
 	end
 
+	it "Cuando el jugador 1 selecciona energia aumenta en 10" do
+	#Arrange
+	pelea = Pelea.new
+	#Act
+	pelea.energia (1)
+	#Assert
+	pelea.player_1_energy.should == 10
+	end
+
+	it "El jugador 1 tiene debe tener como maximo 100 de energia" do
+	#Arrange
+	pelea = Pelea.new
+	#Act
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	pelea.energia (1)
+	#Assert
+	pelea.player_1_energy.should == 100
+	end
+
+
 end 

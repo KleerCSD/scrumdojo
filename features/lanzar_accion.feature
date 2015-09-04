@@ -56,3 +56,30 @@ Scenario: Cuando se inicia el juego y el jugador 2 lanzo 6 patada, este debe gan
     And I press "Patada 2"
 	Then I should see "ganador :"
 
+
+Scenario: Cuando el jugador 1 usa la opcion de energia
+	Given I open the web app
+	When I press "jugar"
+	And I press "Energia 1"
+	Then I should see "Energia 1: 10"
+
+
+Scenario: El jugador 1 tiene debe tener como maximo 100 de energia
+	Given I open the web app
+	When I press "jugar"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	And I press "Energia 1"
+	Then I should see "Energia 1: 100"
+

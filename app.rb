@@ -31,11 +31,15 @@ post '/j1' do
 	pelea = session['pelea']
 	if accion == "patada"
 		pelea.patada (1)	
-	else
+	elsif accion == "punete"
 		pelea.punete (1)
+	elsif accion == "energia"
+		pelea.energia (1)
 	end
 		@player_1_score = pelea.player_1_score
 		@player_2_score = pelea.player_2_score
+		@player_1_energy = pelea.player_1_energy
+		@player_2_energy = pelea.player_2_energy
 		if @player_2_score == 0 
 		@nombre_ganador = "VEGA"
 		@rol_ganador = "BA"
@@ -50,11 +54,15 @@ post '/j2' do
 	pelea = session['pelea']
 	if accion == "patada"
 		pelea.patada (2)	
-	else
+	elsif accion == "punete"
 		pelea.punete (2)
+	elsif accion == "energia"
+		pelea.energia (2)
 	end
 	@player_1_score = pelea.player_1_score
 	@player_2_score = pelea.player_2_score
+		@player_1_energy = pelea.player_1_energy
+		@player_2_energy = pelea.player_2_energy
 	if @player_1_score == 0 
 	@nombre_ganador = "DE LA CRUZ"
 	@rol_ganador = "BA"
