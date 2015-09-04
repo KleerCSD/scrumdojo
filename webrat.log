@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+# Logfile created on 2015-09-04 12:32:49 -0300 by logger.rb/31641
+D, [2015-09-04T12:32:49.899489 #2002] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T13:00:13.329284 #2079] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T13:00:13.458828 #2079] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+=======
 # Logfile created on 2015-09-04 12:09:08 -0300 by logger.rb/31641
 D, [2015-09-04T12:09:08.172298 #1849] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2015-09-04T12:11:22.261802 #1860] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
@@ -61,6 +67,7 @@ D, [2015-09-04T12:30:39.415523 #1974] DEBUG -- : REQUESTING PAGE: GET /juego wit
 D, [2015-09-04T12:30:39.451159 #1974] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
 D, [2015-09-04T12:30:39.460129 #1974] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
 D, [2015-09-04T12:30:39.480446 #1974] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+<<<<<<< HEAD
 D, [2015-09-04T12:54:00.248129 #2165] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
 D, [2015-09-04T12:54:00.335608 #2165] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
 D, [2015-09-04T12:54:00.345501 #2165] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
@@ -108,3 +115,20 @@ D, [2015-09-04T12:59:40.808808 #2207] DEBUG -- : REQUESTING PAGE: GET /juego wit
 D, [2015-09-04T12:59:40.822935 #2207] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
 D, [2015-09-04T12:59:40.830880 #2207] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
 D, [2015-09-04T12:59:40.852101 #2207] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+=======
+>>>>>>> 79f496463e1aaac22e05c45c841b5739628382fa
+>>>>>>> 79e9278bb1012657716c98e5a42fdaebfa9a68ab
+D, [2015-09-04T13:05:08.066723 #2273] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.172435 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.201114 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.215750 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.247468 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.262350 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.291370 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.337405 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.347471 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.369950 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.386749 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.399734 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.463015 #2273] DEBUG -- : REQUESTING PAGE: GET /juego with {} and HTTP headers {}
+D, [2015-09-04T13:05:08.471504 #2273] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
