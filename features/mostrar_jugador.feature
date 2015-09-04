@@ -43,3 +43,4 @@ Scenario: Mostrar el puntaje de Vida del jugador 2
 	Given I open the web app arena
 	Then I should see "Vida 2"
 
+
