@@ -99,5 +99,4 @@ describe Pelea do
 	pelea.player_1_energy.should == 100
 	end
 
-
 end 

@@ -3,10 +3,6 @@ Feature: Mostrar jugador
 	Deseo visualizar la interfaz de juego
 	Para empezar el juego
 
-
-
-
-
 Scenario: Mostrar el boton punete para el jugador 1
 	Given I open the web app
 	When I press "jugar"
